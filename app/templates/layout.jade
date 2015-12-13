@@ -1,0 +1,30 @@
+doctype html
+html(lang='en')
+    head
+        meta(charset="UTF-8")
+        title Yuri Moskovets
+        link(rel="icon" href="favicon.png" type="image/x-icon")
+        link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css")
+        link(rel='stylesheet' type='text/css' href='./css/normalize.css' media='screen, projection, print')
+        link(rel='stylesheet' type='text/css' href='./css/main.css' media='screen, projection, print')
+        block js_file
+    body
+        #wrapper
+            // this is section-home
+            include section-home
+            // end section-home
+            // this is section-about
+            include section-about
+            // end section-about
+            // this is section-work
+            include section-work
+            // end section-work
+            // this is section-contact
+            include section-contact
+            // end section-contact
+        a(href="#home" class="top")
+            i.fa.fa-arrow-circle-o-up.fa-3x
+        script(src="libs/jquery/jquery-1.11.1.min.js")
+        script(src="libs/PageScroll2id/PageScroll2id.min.js")
+        script(src="js/common.js")
+    

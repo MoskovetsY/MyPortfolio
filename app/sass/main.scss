@@ -1,0 +1,39 @@
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:400,300,500|Jura&subset=latin,cyrillic);
+@import url(https://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic);
+@import "_clearfix";
+@import "_home";
+@import "_about";
+@import "_work";
+@import "_contact";
+
+*{
+    box-sizing: border-box;
+}
+
+#wrapper{
+    min-width: 1345px;
+    margin: 0 auto;
+}
+
+.top {
+    bottom: 0;
+    right: 20px;
+    text-align: center;
+    line-height: 50px;
+    position: fixed;
+    color: $main-color;
+}
+
+.mPS2id-highlight {
+    display: none;
+}
+
+.down{
+    display: block;
+    margin-top: 30px;
+    color: $second-color;
+    text-align: center;
+}
+
+
+

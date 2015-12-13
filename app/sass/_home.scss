@@ -1,0 +1,126 @@
+$main-color: #59BEB8;
+$second-color: #d91e53;
+$alt-color: #FAEBD7;
+$main-font: 'Fira Sans', sans-serif;
+$alt-font: 'Jura', sans-serif;
+$second-font: 'Roboto', sans-serif;
+
+
+#home{
+    width: 100%;
+    height: 643px;
+    margin: 0 auto;
+    background: url(../img/hero.png)no-repeat 100% center;
+    background-size: cover;
+}
+
+header{
+    height: 70px;
+    padding: 25px 0;
+    .h-container{
+        width: 1000px;
+        margin: 0 auto;
+    }
+}
+
+.logo{
+    float: left;
+}
+
+.header-nav{
+    display: inline-block;
+    float: right;
+    margin: 0;
+    padding: 0;
+    >li{
+        display: inline-block;
+        list-style: none;
+        margin-right: 15px;
+        &:last-child{
+            margin-right: 0;
+        }
+        >a{
+            padding: 5px;
+            transition: 1s;
+            color: $main-color;
+            font-family: $second-font;
+            font-size: 16px;
+            text-transform: uppercase;
+            text-decoration: none;
+            &:hover{
+                color: $second-color;
+            }
+        }
+    }
+}
+
+main{
+    width: 100%;
+    height: 400px;
+}
+
+.hero-wrap{
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.hero-box{
+    position: absolute;
+    top: 150px;
+    left: 180px;
+    text-align: right;
+}
+
+.avatar-wrap{
+    float: left;
+    margin-right: 10px;
+    >img{
+        overflow: hidden;
+        border: 3px solid $second-color;
+        border-radius: 50%;
+    }
+}
+
+.avatar-text{
+    display: inline-block;
+    margin-top: 10px;
+    .my-name{
+        font-size: 25px;
+        color: $alt-color;
+        font-family: $main-font;
+    }
+    >h1{
+        margin: 0;
+        margin-bottom: 20px;
+        font-size: 37px;
+        font-weight: 400;
+        color: $second-color;
+        font-family: $second-font;
+    }
+    >h2{
+        margin: 0;
+        font-size: 37px;
+        color: $main-color;
+        font-family: $alt-font;
+    }
+}
+
+
+.sprite{
+    margin-bottom: 0;
+    text-align: right;
+    >a{
+        margin-right: 15px;
+        &:last-child{
+            margin-right: 0;
+        }
+        >.fa{
+            color: $alt-color;
+            &:hover{
+                transition: 1s;
+                color: $second-color;
+            }
+        }
+    }
+}

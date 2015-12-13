@@ -1,0 +1,66 @@
+#contact{
+    width: 100%;
+    margin: 0 auto;
+    background: url(../img/footer.jpg) no-repeat 100% center;
+    background-size: cover;
+}
+
+.c-container{
+    position: relative;
+    width: 1000px;
+//    height: 700px;
+    margin: 0 auto;
+    padding: 25px 0;
+    font-family: $main-font;
+    color: $main-color;
+//    border-left: 1px solid white;
+//    border-right: 1px solid white;
+}
+
+.c-title{
+    margin-bottom: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    color: $second-color;
+    font-size: 37px;
+    font-family: $second-font;
+}
+
+.social{
+    >a{
+        margin-right: 10px;
+        transition: 1s;
+        color: $alt-color;
+        &:hover{
+            color: $second-color;
+        }
+    }
+}
+
+.c-text{
+    width: 400px;
+}
+
+.form{
+    position: absolute;
+    top: 135px;
+    right: 0;
+}
+
+.copyright{
+    text-align: center;
+    margin-top: 350px;
+    margin-bottom: 0;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+

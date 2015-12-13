@@ -1,0 +1,81 @@
+
+
+
+
+#work{
+    width: 100%;
+    margin: 0 auto;
+    background-color: beige;
+}
+
+.w-container{
+    width: 1000px;
+//    height: 700px;
+    margin: 0 auto;
+    padding: 25px 0;
+    font-family: $main-font;
+}
+
+.w-title{
+    margin-bottom: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    color: $second-color;
+    font-size: 37px;
+    font-family: $second-font;
+}
+
+
+.my-work{
+    width: 885px;
+    margin: 0 auto;
+    >.w-link{
+        display: inline-block;
+        margin-right: 40px;
+        &:last-child{
+            margin-right: 0;
+        }
+        >img{
+            width: 265px;
+            height: 200px;
+        }
+    }
+}
+
+.w-text{
+    width: 885px;
+    margin: 0 auto;
+    >.w-item{
+        display: inline-block;
+        width: 265px;
+        margin-right: 40px;
+        &:last-child{
+            margin-right: 0;
+        }
+        >h3{
+            color: $second-color;
+            text-align: center;
+        }
+        >p{
+            text-align: center;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
