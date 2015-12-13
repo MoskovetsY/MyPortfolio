@@ -2,17 +2,18 @@ section#home
     header
         .h-container.clearfix
             .logo
-                a(href="#wrapper")
-                    img(src="img/logo.png", alt="logo")
-            ul.header-nav
+                a(href="/")
+                    img(src="img/MyLogo.png", alt="logo")
+            ul.header-nav.sliding-menu
                 li: a(href="#about") Обо мне
                 li: a(href="#work") Мои работы
                 li: a(href="#contact") Контакты
     main
         .hero-wrap
             .hero-box
-                .avatar-wrap
-                    img(src="img/avatar.png", alt="Yuri Moskovets")
+                .avatar-wrap-out
+                    .avatar-wrap
+                        img(src="img/avatar.png", alt="Yuri Moskovets")
                 .avatar-text
                     h1
                         span.my-name Меня зовут 

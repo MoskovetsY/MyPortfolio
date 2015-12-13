@@ -5,9 +5,9 @@ html(lang='en')
         title Yuri Moskovets
         link(rel="icon" href="favicon.png" type="image/x-icon")
         link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css")
-        link(rel='stylesheet' type='text/css' href='./css/normalize.css' media='screen, projection, print')
-        link(rel='stylesheet' type='text/css' href='./css/main.css' media='screen, projection, print')
-        block js_file
+        link(rel='stylesheet' type='text/css' href='bower/normalize-css/normalize.css' media='screen, projection, print')
+        link(rel='stylesheet' type='text/css' href='css/main.css' media='screen, projection, print')
+        script(src="bower/modernizer/modernizr.js")
     body
         #wrapper
             // this is section-home
@@ -24,7 +24,6 @@ html(lang='en')
             // end section-contact
         a(href="#home" class="top")
             i.fa.fa-arrow-circle-o-up.fa-3x
-        script(src="libs/jquery/jquery-1.11.1.min.js")
-        script(src="libs/PageScroll2id/PageScroll2id.min.js")
-        script(src="js/common.js")
-    
+        script(src="bower/jquery/dist/jquery.js")
+        script(src="bower/page-scroll-to-id/jquery.malihu.PageScroll2id.js")
+        script(src="js/main.js")

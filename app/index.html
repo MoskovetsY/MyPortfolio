@@ -6,8 +6,9 @@
     <title>Yuri Moskovets</title>
     <link rel="icon" href="favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="./css/normalize.css" media="screen, projection, print">
-    <link rel="stylesheet" type="text/css" href="./css/main.css" media="screen, projection, print">
+    <link rel="stylesheet" type="text/css" href="bower/normalize-css/normalize.css" media="screen, projection, print">
+    <link rel="stylesheet" type="text/css" href="css/main.css" media="screen, projection, print">
+    <script src="bower/modernizer/modernizr.js"></script>
   </head>
 
   <body>
@@ -17,9 +18,9 @@
         <header>
           <div class="h-container clearfix">
             <div class="logo">
-              <a href="#wrapper"><img src="img/logo.png" alt="logo"></a>
+              <a href="/"><img src="img/MyLogo.png" alt="logo"></a>
             </div>
-            <ul class="header-nav">
+            <ul class="header-nav sliding-menu">
               <li><a href="#about">Обо мне</a></li>
               <li><a href="#work">Мои работы</a></li>
               <li><a href="#contact">Контакты</a></li>
@@ -29,7 +30,9 @@
         <main>
           <div class="hero-wrap">
             <div class="hero-box">
-              <div class="avatar-wrap"><img src="img/avatar.png" alt="Yuri Moskovets"></div>
+              <div class="avatar-wrap-out">
+                <div class="avatar-wrap"><img src="img/avatar.png" alt="Yuri Moskovets"></div>
+              </div>
               <div class="avatar-text">
                 <h1><span class="my-name">Меня зовут </span>Юрий Московец</h1>
                 <h2>Front-End разработчик</h2>
@@ -142,9 +145,9 @@
       </section>
       <!-- end section-contact-->
     </div><a href="#home" class="top"><i class="fa fa-arrow-circle-o-up fa-3x"></i></a>
-    <script src="libs/jquery/jquery-1.11.1.min.js"></script>
-    <script src="libs/PageScroll2id/PageScroll2id.min.js"></script>
-    <script src="js/common.js"></script>
+    <script src="bower/jquery/dist/jquery.js"></script>
+    <script src="bower/page-scroll-to-id/jquery.malihu.PageScroll2id.js"></script>
+    <script src="js/main.js"></script>
   </body>
 
 </html>

@@ -111,10 +111,10 @@ gulp.task('sass', function () {
 gulp.task('autoprefixer', function () {
     return gulp.src('app/css/*.css')
         .pipe(autoprefixer({
-            browsers: ['last 2 versions'],
+            browsers: ['last 15 versions'],
             cascade: false
         }))
-        .pipe(gulp.dest('dist'));
+        .pipe(gulp.dest('dist/css/'));
 });
 
 // Запускаем локальный сервер (только после компиляции jade)
@@ -127,7 +127,6 @@ gulp.task('server', ['jade', 'sass'], function () {
         }
     });
 });
-
 
 
 // слежка и запуск задач 
