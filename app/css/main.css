@@ -8,6 +8,7 @@
 #home {
   width: 100%;
   height: 100vh;
+  min-height: 600px;
   margin: 0 auto;
   background: url(../img/hero.png) no-repeat 100% center;
   background-size: cover;
@@ -112,16 +113,21 @@ main {
         transition: 1s;
         color: #F31247; }
 
+svg {
+  display: block;
+  color: aliceblue; }
+
 #about {
   width: 100%;
   margin: 0 auto;
-  background-color: antiquewhite; }
+  background: url(../img/stressed_linen.png); }
 
 .a-container {
   width: 1000px;
   margin: 0 auto;
   padding: 25px 0;
-  font-family: "Fira Sans", sans-serif; }
+  font-family: "Fira Sans", sans-serif;
+  color: #fff; }
   .a-container > h2 {
     text-align: center;
     color: #F31247; }
@@ -133,12 +139,28 @@ main {
   font-size: 37px;
   font-family: "Roboto", sans-serif; }
 
+.line-l {
+  display: inline-block;
+  width: 70px;
+  margin-right: 5px;
+  margin-bottom: 11px;
+  border-top: 5px solid #F31247;
+  border-radius: 3px; }
+
+.line-r {
+  display: inline-block;
+  width: 70px;
+  margin-left: 5px;
+  margin-bottom: 11px;
+  border-top: 5px solid #F31247;
+  border-radius: 3px; }
+
 .my-self {
   text-align: center;
   font-size: 23px; }
 
 .progress {
-  margin: 0 0 5px 0;
+  margin: 5px 0 5px 0;
   text-align: center;
   font-size: 20px;
   font-weight: 500; }
@@ -155,7 +177,7 @@ main {
   .p-html:before {
     content: '';
     position: absolute;
-    width: 95%;
+    width: 100%;
     height: 30px;
     border: 1px solid #F31247;
     background: #F31247;
@@ -173,7 +195,7 @@ main {
   .p-css:before {
     content: '';
     position: absolute;
-    width: 87%;
+    width: 95%;
     height: 30px;
     border: 1px solid #F31247;
     background: #F31247;
@@ -191,7 +213,7 @@ main {
   .p-gulp:before {
     content: '';
     position: absolute;
-    width: 65%;
+    width: 90%;
     height: 30px;
     border: 1px solid #F31247;
     background: #F31247;
@@ -209,7 +231,7 @@ main {
   .p-js:before {
     content: '';
     position: absolute;
-    width: 20%;
+    width: 10%;
     height: 30px;
     border: 1px solid #F31247;
     background: #F31247;
@@ -249,7 +271,8 @@ main {
   margin: 0 auto; }
   .hobby > .fa {
     display: inline-block;
-    margin-right: 20px; }
+    margin-right: 20px;
+    color: #41D5B8; }
     .hobby > .fa:last-child {
       margin-right: 0; }
 
@@ -303,7 +326,8 @@ main {
   width: 100%;
   margin: 0 auto;
   background: url(../img/footer.jpg) no-repeat 100% center;
-  background-size: cover; }
+  background-size: cover;
+  background-attachment: fixed; }
 
 .c-container {
   position: relative;
