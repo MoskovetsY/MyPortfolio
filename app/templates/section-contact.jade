@@ -13,14 +13,12 @@ section#contact
             p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit labore minima ratione harum ducimus numquam distinctio alias vel earum sed eligendi atque sequi, eius consectetur, voluptatum obcaecati esse. Asperiores, autem.
         .form
             form#form
-                p.f-name
-                    input(type="text" name="name" placeholder="Ваше имя" required)
-                p.f-email
-                    input(type="email" name="email" placeholder="Ваш email" required)
-                p.f-text
-                    textarea(name="text" placeholder="Ваше сообщения")
                 p
-                    input(type="submit" name="submit" value="Отправить" class="sub_btn")
+                    input(type="text" name="name" placeholder="Ваше имя" class="form-field" required)
                 p
-                    input(type="reset" name="reset" value="Сбросить" class="res_btn")
-        p.copyright © 2015. Это мой сайт, пожалуйста не копируйте и не воруйте его. Юрий Московец
+                    input(type="email" name="email" placeholder="Ваш email" class="form-field" required)
+                p
+                    textarea(name="text" placeholder="Ваше сообщение:" class="form-text")
+                button.sub_btn(type="submit") Отправить
+                button.res_btn(type="reset") Очистить
+        p.copyright © 2016. Это мой сайт, пожалуйста не копируйте и не воруйте его. Юрий Московец

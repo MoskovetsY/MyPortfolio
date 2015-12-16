@@ -4,7 +4,8 @@
     "normalize-css": "normalize.css#~3.0.3",
     "jquery": "~2.1.4",
     "page-scroll-to-id": "~1.5.4",
-    "modernizer": "~2.8.2"
+    "modernizer": "~2.8.2",
+    "slider-pro": "~1.2.2"
   },
   "overrider": {
     "qtip2": {

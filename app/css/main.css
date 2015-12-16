@@ -38,20 +38,20 @@ header {
     .header-nav > li > a {
       padding: 5px;
       transition: 1s;
-      color: #FBFBFB;
+      color: #7D7D7D;
       font-family: "Roboto", sans-serif;
       font-size: 16px;
       text-transform: uppercase;
       text-decoration: none; }
       .header-nav > li > a:hover {
-        color: #F31247; }
+        color: #FBFBFB; }
 
 .sliding-line {
   position: absolute;
   left: 0;
   bottom: -5px;
   height: 2px;
-  background: #41D5B8; }
+  background: #F31247; }
 
 main {
   width: 100%;
@@ -279,7 +279,7 @@ svg {
 #work {
   width: 100%;
   margin: 0 auto;
-  background-color: beige; }
+  background: url(../img/low_contrast_linen.png); }
 
 .w-container {
   width: 1000px;
@@ -360,6 +360,64 @@ svg {
   top: 135px;
   right: 0; }
 
+.form-field {
+  width: 350px;
+  height: 35px;
+  padding: 5px 0 5px 5px;
+  outline: none;
+  border: 2px solid #F31247;
+  background: none;
+  font-size: 17px;
+  color: #FBFBFB;
+  border-radius: 3px; }
+
+input::-webkit-input-placeholder {
+  color: #7D7D7D; }
+
+textarea::-webkit-input-placeholder {
+  color: #7D7D7D; }
+
+.form-text {
+  width: 350px;
+  height: 300px;
+  padding: 5px 0 5px 5px;
+  outline: none;
+  border: 2px solid #F31247;
+  background: none;
+  font-size: 17px;
+  color: #FBFBFB;
+  resize: none;
+  border-radius: 3px; }
+
+.sub_btn {
+  width: 150px;
+  height: 40px;
+  margin-right: 48px;
+  outline: none;
+  border: 2px solid #F31247;
+  background: none;
+  font-size: 17px;
+  color: #FBFBFB;
+  transition: 1s;
+  border-radius: 3px;
+  text-transform: uppercase; }
+  .sub_btn:hover {
+    background-color: #F31247; }
+
+.res_btn {
+  width: 150px;
+  height: 40px;
+  outline: none;
+  border: 2px solid #F31247;
+  background: none;
+  font-size: 17px;
+  color: #FBFBFB;
+  transition: 1s;
+  border-radius: 3px;
+  text-transform: uppercase; }
+  .res_btn:hover {
+    background-color: #F31247; }
+
 .copyright {
   text-align: center;
   margin-top: 350px;
@@ -379,7 +437,8 @@ svg {
   text-align: center;
   line-height: 50px;
   position: fixed;
-  color: #41D5B8; }
+  color: #41D5B8;
+  opacity: 0.5; }
 
 .mPS2id-highlight {
   display: none; }

@@ -44,13 +44,13 @@ header{
         >a{
             padding: 5px;
             transition: 1s;
-            color: $alt-color;
+            color: #7D7D7D;
             font-family: $second-font;
             font-size: 16px;
             text-transform: uppercase;
             text-decoration: none;
             &:hover{
-                color: $second-color;
+                color: $alt-color;
             }
         }
     }
@@ -61,7 +61,7 @@ header{
     left: 0;
     bottom: -5px;
     height: 2px;
-    background: $main-color;
+    background: $second-color;
 }
 
 

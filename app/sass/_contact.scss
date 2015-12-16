@@ -9,13 +9,10 @@
 .c-container{
     position: relative;
     width: 1000px;
-//    height: 700px;
     margin: 0 auto;
     padding: 25px 0;
     font-family: $main-font;
     color: $main-color;
-//    border-left: 1px solid white;
-//    border-right: 1px solid white;
 }
 
 .c-title{
@@ -46,6 +43,67 @@
     position: absolute;
     top: 135px;
     right: 0;
+}
+
+.form-field{
+    width: 350px;
+    height: 35px;
+    padding: 5px 0 5px 5px;
+    outline: none;
+    border: 2px solid $second-color;
+    background: none;
+    font-size: 17px;
+    color: $alt-color;
+    border-radius: 3px;
+}
+
+input::-webkit-input-placeholder {color: #7D7D7D;}
+textarea::-webkit-input-placeholder {color: #7D7D7D;}
+
+.form-text{
+    width: 350px;
+    height: 300px;
+    padding: 5px 0 5px 5px;
+    outline: none;
+    border: 2px solid $second-color;
+    background: none;
+    font-size: 17px;
+    color: $alt-color;
+    resize: none;
+    border-radius: 3px;
+}
+
+.sub_btn{
+    width: 150px;
+    height: 40px;
+    margin-right: 48px;
+    outline: none;
+    border: 2px solid $second-color;
+    background: none;
+    font-size: 17px;
+    color: $alt-color;
+    transition: 1s;
+    border-radius: 3px;
+    text-transform: uppercase;
+    &:hover{
+        background-color: $second-color;
+    }
+}
+
+.res_btn{
+    width: 150px;
+    height: 40px;
+    outline: none;
+    border: 2px solid $second-color;
+    background: none;
+    font-size: 17px;
+    color: $alt-color;
+    transition: 1s;
+    border-radius: 3px;
+    text-transform: uppercase;
+    &:hover{
+        background-color: $second-color;
+    }
 }
 
 .copyright{
